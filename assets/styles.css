@@ -20,6 +20,17 @@ html {
   font-family: "Pacifico", cursive;
   height: 100vh;
 }
+.footer-license {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart {
+  font-size: 42.5%;
+  margin: 0 10px; 
+  color: rgb(238, 38, 98); 
+}
 
 html::-webkit-scrollbar {
   width: 2px;
@@ -53,10 +64,10 @@ canvas {
 
 @keyframes changeColor {
   from {
-    background-image: linear-gradient(to left, #5998C5, #419D78);
+    background-image: linear-gradient(to left, #c59e59, #d6245a);
   }
   to {
-    background-image: linear-gradient(to top, #5998C5, #419D78);
+    background-image: linear-gradient(to top, #2889cf, #09905a);
   }
 }
 
